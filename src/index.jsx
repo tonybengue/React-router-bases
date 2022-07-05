@@ -3,8 +3,8 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App";
-import Expenses from "../pages/Expenses"
-import Invoices from "../pages/Invoices"
+import Expenses from "./pages/Expenses"
+import Invoices from "./pages/Invoices"
 
 const rootElement = document.getElementById("root")
 const root = createRoot(rootElement)
